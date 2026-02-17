@@ -1,0 +1,85 @@
+{
+	"name": "ds_blob_meta",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "meta_email_data.csv",
+				"container": "facebookemails"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "DATE",
+				"type": "String"
+			},
+			{
+				"name": "ACCOUNT_ID",
+				"type": "String"
+			},
+			{
+				"name": "ACCOUNT_NAME",
+				"type": "String"
+			},
+			{
+				"name": "CAMPAIGN_ID",
+				"type": "String"
+			},
+			{
+				"name": "CAMPAIGN_NAME",
+				"type": "String"
+			},
+			{
+				"name": "AD_SET_ID",
+				"type": "String"
+			},
+			{
+				"name": "AD_SET_NAME",
+				"type": "String"
+			},
+			{
+				"name": "IMPRESSIONS",
+				"type": "String"
+			},
+			{
+				"name": "CLICKS",
+				"type": "String"
+			},
+			{
+				"name": "SPEND",
+				"type": "String"
+			},
+			{
+				"name": "RFI_SUBMIT_GA4",
+				"type": "String"
+			},
+			{
+				"name": "APP_START_GA4",
+				"type": "String"
+			},
+			{
+				"name": "NON_BOUNCE_EVENTS",
+				"type": "String"
+			},
+			{
+				"name": "REGION",
+				"type": "String"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

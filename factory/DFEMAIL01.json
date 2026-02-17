@@ -1,0 +1,9 @@
+{
+	"name": "DFEMAIL01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f20b9899-6532-41bf-aa46-3db67993e746",
+		"tenantId": "0459dcc9-4870-48fe-bcbf-a5b4c752a1fd"
+	}
+}

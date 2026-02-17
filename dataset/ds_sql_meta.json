@@ -1,0 +1,78 @@
+{
+	"name": "ds_sql_meta",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "DATE",
+				"type": "date"
+			},
+			{
+				"name": "ACCOUNT_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "ACCOUNT_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "CAMPAIGN_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "CAMPAIGN_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "AD_SET_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "AD_SET_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "IMPRESSIONS",
+				"type": "varchar"
+			},
+			{
+				"name": "CLICKS",
+				"type": "varchar"
+			},
+			{
+				"name": "SPEND",
+				"type": "varchar"
+			},
+			{
+				"name": "RFI_SUBMIT_GA4",
+				"type": "varchar"
+			},
+			{
+				"name": "APP_START_GA4",
+				"type": "varchar"
+			},
+			{
+				"name": "NON_BOUNCE_EVENTS",
+				"type": "varchar"
+			},
+			{
+				"name": "REGION",
+				"type": "varchar"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "facebook_stage"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
