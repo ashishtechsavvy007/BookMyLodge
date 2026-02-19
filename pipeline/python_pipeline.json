@@ -4,7 +4,7 @@
 		"description": "Process python scripts",
 		"activities": [
 			{
-				"name": "Custom1",
+				"name": "RunPythonScript",
 				"type": "Custom",
 				"dependsOn": [],
 				"policy": {
@@ -16,12 +16,12 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "cmd /c echo Hello World > output.txt",
+					"command": "python test.py",
 					"resourceLinkedService": {
 						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
 					},
-					"folderPath": "outputs",
+					"folderPath": "pyscripts",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
