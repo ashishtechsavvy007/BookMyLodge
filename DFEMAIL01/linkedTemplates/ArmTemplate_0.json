@@ -466,7 +466,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"command": "python test.py",
+							"command": "python3 test.py",
 							"resourceLinkedService": {
 								"referenceName": "AzureBlobStorage1",
 								"type": "LinkedServiceReference"
