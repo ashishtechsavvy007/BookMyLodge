@@ -21,6 +21,7 @@
 						"referenceName": "AzureBlobStorage1",
 						"type": "LinkedServiceReference"
 					},
+					"folderPath": "outputs",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
