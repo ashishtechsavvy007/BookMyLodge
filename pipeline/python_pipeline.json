@@ -1,0 +1,7 @@
+{
+	"name": "python_pipeline",
+	"properties": {
+		"description": "Process python scripts",
+		"annotations": []
+	}
+}
