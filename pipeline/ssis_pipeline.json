@@ -1,5 +1,5 @@
 {
-	"name": "power_Q_pipeline",
+	"name": "ssis_pipeline",
 	"properties": {
 		"annotations": []
 	}
