@@ -1,5 +1,5 @@
 {
-	"name": "blob_to_stage_pipeline",
+	"name": "dev_pipeline",
 	"properties": {
 		"description": "Copy transformed data from stage to final table",
 		"activities": [
